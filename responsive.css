@@ -1,0 +1,317 @@
+
+
+
+
+
+@media only screen and (min-width: 750px) and (max-width: 1149px) {
+    .container{
+        width: 100% !important;
+    }
+    .cl{
+        width: 8.33333333% !important;
+        padding: 0 10px 0 0 !important;
+    }
+    .cl2{
+        width: 13% !important;
+        padding: 0 10px 0 0 !important;
+    }
+    .cl3{
+        width: 25% !important;
+        padding: 0 10px 0 0 !important;
+    }
+    .cl4{
+        width: 33.33% !important;
+        padding: 0 10px 0 0 !important;
+    }
+    .cl5{
+        width: 41.66% !important;
+        padding: 0 10px 0 0 !important;
+    }
+    .cl6{
+        width: 50% !important;
+        padding: 0 10px 0 0 !important;
+    }
+    .cl7{
+        width: 58.33% !important;
+        padding: 0 10px 0 0 !important;
+    }
+    .cl8{
+        width: 66.66% !important;
+        padding: 0 10px 0 0 !important;
+    }
+    .cl9{
+        width: 75% !important;
+        padding: 0 10px 0 0 !important;
+    }
+    .news_img_05 > img {
+        height: auto;
+    }
+    .src_mid{
+        width:48% !important;
+    }
+    
+    .pro_menu {
+        width: 23%;
+    }
+    .product_sng {
+        width: 77%;
+    }
+    
+    .sng_side_cat {
+        margin-right: 0px;
+    }
+    .mobile_menu > h2 {
+        font-size: 20px;
+    }
+    .mobile_menu > h2 i{
+        margin-right: 5px;
+    }
+}
+
+
+
+
+/**
+* Screen size 481px to 750px
+**/
+@media only screen and (min-width: 481px) and (max-width: 750px) {
+    #idx_single_pro li {
+        width: 48% !important;
+    }
+    
+    /**Nivo Slider**/
+    .nivoSlider{
+        margin: 0 !important;
+    }
+    .nivoSlider img{
+        height: 170px !important;
+    }
+    
+    .sld_right{
+        margin-left: 8px;
+    }
+    .sld_right_img img{
+        height: 180px;
+    }
+    /**End slider**/
+    
+    /**Owl Slider**/
+    .title h2 {
+        font-size: 20px;
+    }
+    /**Owl Slider**/
+    
+}
+
+
+
+/**
+* Screen size 500px to 750px
+**/
+@media only screen and (min-width: 500px) and (max-width: 750px) {
+    #idx_single_pro img {
+        height: 200px;
+    }
+
+
+
+}
+
+
+/**
+* Screen size 350px to 750px
+**/
+@media only screen and (min-width: 350px) and (max-width: 499px) {
+    #idx_single_pro li {
+        width: 47% !important;
+        float: left;
+        margin: 5px;
+    }
+
+
+
+}
+
+
+/**
+* Screen size 280px to 349px
+**/
+@media only screen and (min-width: 280px) and (max-width: 349px) {
+    #idx_single_pro li {
+        width: 46% !important;
+        float: left;
+        margin: 5px;
+    }
+
+
+
+}
+
+/**
+* Screen size 150px to 480px
+**/
+@media only screen and (min-width: 150px) and (max-width: 480px) {
+   
+    /**Slider**/
+    .nivoSlider{
+        margin: 0 !important;
+    }
+    .nivoSlider img{
+        height: 150px !important;
+        margin: 0 !important;
+    }
+    
+    .sld_right{
+        margin-left: 5px;
+    }
+    .sld_right_img img{
+        height: 160px;
+    }
+    /**End slider**/
+    
+
+
+}
+
+
+/**
+* Screen size 150px to 900px
+**/
+@media only screen and (min-width: 150px) and (max-width: 900px) {
+    .container{width:100% !important;padding:0 10px;}
+    .woocommerce ul.products[class*="columns-"] li.product, .woocommerce-page ul.products[class*="columns-"] li.product {
+        width: 48% !important;
+    }
+    .nopad{
+        padding: 0 !important;
+    }
+    .ht_bg{
+        display: none;
+    }
+    .header_bg{
+        display: none;
+    }
+    .rd_bg{
+        display: block;
+    }
+    .web_image{
+        width: 70%;
+        margin: 0 auto;
+        padding: 5px 0;
+    }
+    
+    /**Menu**/
+    .menu_bg{
+        display:  none;
+    }
+    .menu > div > ul > li {
+        float: none;
+    }
+    
+    .sm_ms{
+        cursor: pointer;
+    }
+    #searchform{
+        padding: 35px 0;
+        text-align: center;
+    }
+    #searchform input{
+        width: 60%;
+        padding: 5px;
+        border-radius: 0px;
+        border: 1px solid #ddd;
+    }
+    #searchsubmit{
+        padding: 5px 10px;
+        border: 1px solid #ddd;
+        margin-left: -5px;
+    }
+    
+    /**End Menu**/
+    
+    /**Idx Product**/
+    .pro_menu {
+        width: 100%;
+    }
+    #acr_menu{
+        display: block;
+    }
+    .mobile_menu{
+        display: none;
+    }
+    #product {
+        border: none;
+    }
+    .product_sng {
+        width: 100%;
+        padding: 0px;
+    }
+    #idx_single_pro h2 {
+        font-size: 15px !important;
+    }
+    .price {
+        font-size: 13px !important;
+    }
+    .woocommerce ul.products li.product .button, .woocommerce-page ul.products li.product .button, .woocommerce ul.products li.product a.added_to_cart {
+        margin: 10px;
+        overflow: hidden;
+        font-size: 14px !important;
+        padding: 10px !important;
+    }
+    /**End idx product**/
+    
+    /**Flex Slider**/
+    .item {
+        margin: 0 5px;
+    }
+    .sng_item {
+        margin: 5px;
+        padding: 5px;
+    }
+    .slider_flex .slides img {
+        height: 150px;
+    }
+    input{
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+    }
+    table {
+      width: 100%;
+    }
+    
+    /**Contact Page**/
+    #contact {
+        width: 100%;
+    }
+    .cnt_sec > div > form > p {
+        width: 100%;
+        float: none;
+    }
+    .wpcf7-submit{
+        width: 95%;
+    }
+    /**End contact page**/
+    
+    /**Category Page**/
+    #single_sidebar {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    .price_slider_amount input {
+        width: 47%;
+    }
+    /**Category Page**/
+}
+
+
+
+
+
+
+
+
+
+
+
+
