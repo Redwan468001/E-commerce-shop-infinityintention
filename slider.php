@@ -14,7 +14,7 @@
             					?>
             					<div id="single_slider"> 
             						<div class="n_slide_img"> 
-            							<?php the_content(); ?>
+            							<?php the_post_thumbnail(); ?>
             						</div>
             						<div class="n_slide_art"> 
             						</div>
